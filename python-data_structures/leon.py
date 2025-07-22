@@ -12,5 +12,11 @@
 # temperatures_in_Celsius = list(map(celsius, temperatures_in_Fahrenheit))
 # print(temperatures_in_Fahrenheit)
 # print(temperatures_in_Celsius)
-from functools import reduce
-print(reduce((lambda x, y: x+y), range(1, 6)))
+# from functools import reduce
+# print(reduce((lambda x, y: x+y), range(1, 6)))
+class Person:
+    def say_hi(self):
+        print('Hello, how are you?')
+
+p = Person()
+p.say_hi()
